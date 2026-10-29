@@ -1,0 +1,43 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Dataset files (large)
+datasets/
+
+# Generated outputs
+outputs/
+results/
+runs/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Generated uploads and results
+uploads/
+results/
+
+# macOS metadata and Python cache
+.DS_Store
+__pycache__/
